@@ -1,0 +1,42 @@
+.main{
+    font-family: Rubik;
+    background-color: #bcf3d9; /* Цвет фона контейнера */
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    max-width: 1440px;
+    margin: auto;
+    
+}
+.main__new-products {
+    padding: 20px;
+}
+.main__button-product {
+    background-color: #c94a4a;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.main__product-list {
+    display: flex; /* Используем flexbox для горизонтального расположения */
+    overflow-x: auto; /* Включаем горизонтальную прокрутку */
+    white-space: nowrap;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.main__product-item {padding: 10px;}
+.main__news {
+    text-align: center;
+    justify-content: center;
+    
+}
+.main__news-list {
+    display: flex; /* Используем flexbox для горизонтального расположения */
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: auto;
+}
