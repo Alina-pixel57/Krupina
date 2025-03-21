@@ -1,0 +1,135 @@
+.header{
+    font-family: Rubik;
+    background-color: rgb(240, 179, 105);
+    color: black;
+    text-align: left;
+    background: radial-gradient(circle, rgb(255, 255, 255), rgb(247, 247, 150), rgb(157, 240, 157));
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    position: sticky;
+    top: 0; /* Хедер будет "прилипать" к верхней части окна */
+    z-index: 1000;
+    transition: background-color 0.3s ease; 
+}
+.header--scroll {
+    background-color: #fefefb;
+}
+.header__buttonid {display: flex;
+    position: relative;
+    left: 0;}
+
+    .header__buttonid-right {
+    position: relative;
+    left: 24%;
+}
+.header__button-text {
+    position: relative;
+    top: -13px;
+}
+.header__button-entrance {
+    position: relative; /* Позиционирование относительно обычного положения */
+    left: 0%; /* Сдвиг вправо на 50 пикселей */
+    top: -12px; /* Сдвиг вниз на 20 пикселей */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 250px; /* Ширина кнопки */
+    height: 60px;
+    border: none;
+    background-color: #97ddf7;
+}
+.header__name {
+    text-align: center;
+}
+.header__button {
+    position: relative; /* Позиционирование относительно обычного положения */
+    left: 0%; /* Сдвиг вправо на 50 пикселей */
+    top: 0px; /* Сдвиг вниз на 20 пикселей */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px; /* Ширина кнопки */
+    height: 60px;
+    border: none;
+    background-color: #97ddf7;
+}
+
+.header__logo {
+    position: relative; /* Позиционирование относительно обычного положения */
+    right: 0px;
+    left: 0%; /* Сдвиг вправо на 50 пикселей */
+    top: 0px; /* Сдвиг вниз на 20 пикселей */
+    display: flex;
+}
+.header__logo-name {justify-content: center;
+text-align: center;}
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-left: 0;
+
+    list-style: none;
+}
+
+.header__item-link {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #ff0000;
+    text-decoration: none;
+    position: relative;
+    left: 50%;
+    TOP: 15px;
+    transition: color 0.4s ease-out, text-shadow 0.3s;
+      
+}
+
+.header__item-link:hover,
+.header__item-link:focus {
+    color: #000000;
+}
+
+.header__item-link:active {
+    text-shadow: 1px -1px 1px #3a3c41;
+}
+
+.header__item-link--active {
+    font-weight: 600;
+    color: #6846c5;
+
+    cursor: default;
+}
+.header__form {
+    border-radius: 5px;
+    text-align: center;
+}
+
+.header__checkbox {
+    display: none; /* Скрыть checkbox */
+    }
+
+.header__checkboxlabel {
+    display: inline-block;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.hiddenblock {
+    display: none; /* Скрыть блок по умолчанию */
+    position: relative;
+    left: 50%;
+    TOP: 15px;
+}
+
+#hiddenblock {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+

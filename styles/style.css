@@ -1,0 +1,26 @@
+/* Подключение шрифтов */
+@import "fonts.css";
+/* Подключение основных стилей */
+@import "base.css";
+/* Подключение стилей относящихся к header */
+@import "header.css";
+/* Подключение стилей относящихся к footer */
+@import "footer.css";
+/* Подключение стилей относящихся к main */
+@import "main.css";
+
+@import "media.css";
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.item h2 {
+    margin: 0 0 10px 0;
+}
